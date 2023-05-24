@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <title>Ingreso datos</title>
+</head>
+    <h1 style="color:teal;font-family:courier;">INGRESE SUS DATOS </h1>
+      <body style="background-color:lightCyan;">
+          <form method="post">
+               <div>
+                   <fieldset>
+                       <legend>Personalia:</legend>
+                       <label for="Nombre">nombre:</label><br>
+                       <input type="text" id="Nombre" name="Nombre" maxlength="10" autocomplete="on" required>
+
+                       <label for="datemax">Fecha Nacimiento:</label>
+                       <input type="date" id="datemax" name="datemax" max="2023-05-23" required><br>
+
+                       <label for="Apellido">apellido:</label><br>
+                       <input type="text" id="Apellido" name="Apellido" maxlength="15" autocomplete="on" required>
+                       <br>
+                       <label for="Cedula">Cedula:</label><br>
+                       <input type="text" id="Cedula"  name="Cedula " maxlength="10" autocomplete="on" required>
+                   </fieldset>
+               </div>
+               <div>
+                   <br>
+                   <p>Selecione una respuesta</p>
+                   <input type="radio" id="Casado" name="Estado" value="Casado">
+                   <label for="Casado">Casado</label><br>
+                   <input type="radio" id="Soltero" name="Estado" value="Soltero">
+                   <label for="Soltero">Soltero</label><br>
+                   <input type="radio" id="Divorciado" name="Estado" value="Divorciado">
+                   <label for="Divorciado">Divorciado</label>
+               </div>
+               <div>
+                    <br>
+                    <label for="hijos">Cuantos hijos tiene:</label>
+                    <select id="hijos" name="hijos">
+                    <option value="0">Elegir</option>
+                    <option value="1">1-2</option>
+                    <option value="2">2-3</option>
+                    <option value="3">3-4</option>
+                    <option value="4">4 o mas</option>
+                    </select>
+                    <br><br>
+               </div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset">
+          </form>
+      </body>
+    <br>
+    <a href="https://www.youtube.com/watch?v=-DOP_WG_2rc" target="_blank"><button>Click me?</button></a>
+    <button type="button" onclick="alert('FELICIDADES GANASTE UN IPHONE XS!')">Click Me!</button>
+</html>
